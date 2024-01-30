@@ -7,7 +7,7 @@ namespace R5T.L0092.Construction
     {
         static void Main()
         {
-            Console.WriteLine("Hello World!");
+            Demonstrations.Instance.CombinePathParts_IntoDirectoryPath();
         }
     }
 }

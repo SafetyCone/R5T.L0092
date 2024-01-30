@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Version>1.0.0</Version>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <NoWarn>1591</NoWarn>
+    <NoWarn>1587;1591</NoWarn>
     <Authors>DCoats</Authors>
     <Company>Rivet</Company>
     <Copyright>Copyright (c) Rivet 2024</Copyright>
@@ -14,6 +14,8 @@
     <RepositoryUrl>https://github.com/SafetyCone/R5T.L0092.git</RepositoryUrl>
   </PropertyGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.Z0066\source\R5T.Z0066\R5T.Z0066.csproj" />
     <ProjectReference Include="..\R5T.L0092\R5T.L0092.csproj" />
+    <ProjectReference Include="..\..\..\R5T.T0141\source\R5T.T0141\R5T.T0141.csproj" />
   </ItemGroup>
 </Project>
