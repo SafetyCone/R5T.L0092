@@ -1,6 +1,5 @@
 ﻿using System;
 
-using R5T.T0142;
 using R5T.T0244;
 
 
@@ -12,8 +11,8 @@ namespace R5T.L0092.T001
     /// <remarks>
     /// For the opposite, see <see cref="IIsUnresolvedPath"/>.
     /// </remarks>
-    [CheckMarker, DataTypeMarker]
-    public interface IIsResolvedPath : ICheck
+    [CheckMarker]
+    public interface IIsResolvedPath : ICheckMarker
     {
     }
 }
